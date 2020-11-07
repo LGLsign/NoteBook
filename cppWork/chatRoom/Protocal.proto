@@ -1,0 +1,13 @@
+syntax = 'proto3';
+message PBindName {
+	string name = 1;
+}
+
+message PChat {
+	string info = 1;
+}
+
+message PRoomInfo {
+	string name = 1;
+	string info = 2;
+}
